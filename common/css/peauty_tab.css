@@ -1,0 +1,20 @@
+/* 신규 업데이트 */
+ul.main_tabs {margin: 0 auto; display: table;list-style: none; }
+ul.main_tabs li {float: left; margin: 0; padding: 0; height: 35px; width: 135px; /*--Subtract 1px from the height of the unordered list--*/ line-height: 45px; text-align: center; position: relative;}
+ul.main_tabs li a {text-decoration: none; color: #a6a6a6; display: block; font-size: 21px;border-top: 1px solid #a6a6a6;   outline: none;}
+ul.main_tabs li a:hover {font-weight: bold; color: #612ff9; border-top: 4px solid #612ff9; margin: -3px 0 0 0;}
+html ul.main_tabs li.active a
+{background: #fff; color: #612ff9; font-weight: bold; border-top: 4px solid #612ff9; margin: -3px 0 0 0 }
+
+
+.main_tab_container {border-top: none;overflow: hidden;clear: both;float: left;width: 100%;background: #fff;}
+.main_tab_content { padding: 0;}
+
+/* 인기 콘텐츠 */
+.tab_content{padding: 0 45px;}		
+.tab_nav{width:100%; display: flex; justify-content: center; border-bottom:1px solid #202020;}
+.tab_nav li{margin: 0 3px; display: inline-block; width: 200px; height:52px; text-align:center;border-radius: 5px 5px 0 0;}
+.tab_nav li a.active:before{background:#ededed; border-radius: 5px 5px 0 0;}
+.tab_nav li a{position:relative; display:block; background: #ededed; color: #a6a6a6; line-height:52px; text-decoration:none; font-size:16px;border-radius: 5px 5px 0 0;}
+.tab_nav li a:hover,
+.tab_nav li a.active{background:#fff; color:#202020; border-left: 1px solid #202020; border-right: 1px solid #202020; border-top: 1px solid #202020; border-radius: 5px 5px 0 0; font-weight: bold;}
